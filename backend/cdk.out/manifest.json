@@ -23,7 +23,7 @@
         "validateOnSynth": false,
         "assumeRoleArn": "arn:${AWS::Partition}:iam::444212982395:role/cdk-hnb659fds-deploy-role-444212982395-eu-west-2",
         "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::444212982395:role/cdk-hnb659fds-cfn-exec-role-444212982395-eu-west-2",
-        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-444212982395-eu-west-2/de12d665183be801e0663d9b756a91143a1e7067603529ff5eaf649efd70dea0.json",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-444212982395-eu-west-2/26c5a93afd7472a5557c492ac5eea5443327565f77f658445e9ffdebc35f0d02.json",
         "requiresBootstrapStackVersion": 4,
         "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
         "additionalDependencies": [
@@ -56,7 +56,7 @@
         "/space-finder-eu/SpaceApi/Deployment/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "SpaceApiDeploymentA2B9E76599e81e89debcc1e2c5f823d9cc59b015"
+            "data": "SpaceApiDeploymentA2B9E7657589969999a7eef1921edffd58d7db1b"
           }
         ],
         "/space-finder-eu/SpaceApi/DeploymentStage.prod/Resource": [
@@ -95,6 +95,30 @@
             "data": "SpaceApihelloGET65983C27"
           }
         ],
+        "/space-finder-eu/SpaceApi/Default/spaces/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SpaceApispacesD5EE855F"
+          }
+        ],
+        "/space-finder-eu/SpaceApi/Default/spaces/POST/ApiPermission.spacefindereuSpaceApiFB48DA15.POST..spaces": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SpaceApispacesPOSTApiPermissionspacefindereuSpaceApiFB48DA15POSTspaces09F091D2"
+          }
+        ],
+        "/space-finder-eu/SpaceApi/Default/spaces/POST/ApiPermission.Test.spacefindereuSpaceApiFB48DA15.POST..spaces": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SpaceApispacesPOSTApiPermissionTestspacefindereuSpaceApiFB48DA15POSTspaces30ABE112"
+          }
+        ],
+        "/space-finder-eu/SpaceApi/Default/spaces/POST/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SpaceApispacesPOST1DDB27B3"
+          }
+        ],
         "/space-finder-eu/SpacesTable": [
           {
             "type": "aws:cdk:hasPhysicalName",
@@ -107,6 +131,24 @@
           {
             "type": "aws:cdk:logicalId",
             "data": "SpacesTable8A997355"
+          }
+        ],
+        "/space-finder-eu/SpacesTable-Create/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SpacesTableCreateServiceRoleE49CA3B4"
+          }
+        ],
+        "/space-finder-eu/SpacesTable-Create/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SpacesTableCreateServiceRoleDefaultPolicy308B2E77"
+          }
+        ],
+        "/space-finder-eu/SpacesTable-Create/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SpacesTableCreate125CEC52"
           }
         ],
         "/space-finder-eu/helloLambdaNodeJs/ServiceRole/Resource": [

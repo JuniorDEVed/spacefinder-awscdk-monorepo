@@ -1,6 +1,20 @@
 {
   "version": "12.0.0",
   "files": {
+    "4e9784ea12fb0395d27851642a17874cc3866b86943a0fb13cb3c0127fa411b0": {
+      "source": {
+        "path": "asset.4e9784ea12fb0395d27851642a17874cc3866b86943a0fb13cb3c0127fa411b0",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "444212982395-eu-west-2": {
+          "bucketName": "cdk-hnb659fds-assets-444212982395-eu-west-2",
+          "objectKey": "4e9784ea12fb0395d27851642a17874cc3866b86943a0fb13cb3c0127fa411b0.zip",
+          "region": "eu-west-2",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::444212982395:role/cdk-hnb659fds-file-publishing-role-444212982395-eu-west-2"
+        }
+      }
+    },
     "fed50c2a1e49f52bcdc92d92197c672f87593c90cdfe003ce06eea21c1192c47": {
       "source": {
         "path": "asset.fed50c2a1e49f52bcdc92d92197c672f87593c90cdfe003ce06eea21c1192c47",
@@ -15,7 +29,7 @@
         }
       }
     },
-    "de12d665183be801e0663d9b756a91143a1e7067603529ff5eaf649efd70dea0": {
+    "26c5a93afd7472a5557c492ac5eea5443327565f77f658445e9ffdebc35f0d02": {
       "source": {
         "path": "space-finder-eu.template.json",
         "packaging": "file"
@@ -23,7 +37,7 @@
       "destinations": {
         "444212982395-eu-west-2": {
           "bucketName": "cdk-hnb659fds-assets-444212982395-eu-west-2",
-          "objectKey": "de12d665183be801e0663d9b756a91143a1e7067603529ff5eaf649efd70dea0.json",
+          "objectKey": "26c5a93afd7472a5557c492ac5eea5443327565f77f658445e9ffdebc35f0d02.json",
           "region": "eu-west-2",
           "assumeRoleArn": "arn:${AWS::Partition}:iam::444212982395:role/cdk-hnb659fds-file-publishing-role-444212982395-eu-west-2"
         }
